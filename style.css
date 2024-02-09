@@ -3,3 +3,11 @@
 
     background-color: rgb(255, 0, 0);
 }
+
+div {
+    border: 1px solid red;
+}
+
+div:hover {
+    border: 1px solid blue;
+}

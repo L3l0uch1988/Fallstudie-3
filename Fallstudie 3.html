@@ -1,23 +1,90 @@
 <!DOCTYPE html>
+
+
+
 <html lang="de">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style type="text/css">
+        header {
+            background-color: #afa;
+        }
+
+        header nav ul {
+            text-align: right;
+        }
+
+        header nav ul li {
+            display: inline;
+        }
+
+        main {
+            display: flex;
+        }
+
+        main nav {
+            width: 40 %;
+            background-color: #aaf;
+        }
+
+        main div#content {
+            width: 60 %;
+            background-color: #aff;
+        }
+
+        footer {
+            background-color: #faa;
+        }
+
+        footer nav ul {
+            text-align: center;
+        }
+
+        footer nav ul li {
+            display: inline;
+        }
+
+        @media screen and (max-width: 767px) {
+            main {
+                display: block;
+            }
+
+            main nav,
+            main div#content {
+                width: 100 %;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Hallo</h1>
-    <h2>Was geht ab</h2>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Fallstudie 3.html">Homepage</a></li>
+                <li><a href="services.html">Unsere Leistungen</a></li>
+                <li><a href="products.html">Unsere Produkte</a></li>
+                <li><a href="prices.html">Unsere Preise</a></li>
+                <li><a href="about.html">Über uns</a></li>
+                <li><a href="fKleiderspende.html">Formular Kleiderspende</a></li>
+            </ul>
+        </nav>
 
-    <ul>
-     <li>Erdbeere</li>
-     <li>Apfel</li>
-     <li>Kirsche</li>
-   
-      
-    </ul>
+
+    </header>
+    <h1>Kleiderspenden-Registrierung</h1>
+
+
+    <footer>
+
+        <nav>
+            <ul>
+                <li><a href="privacy.html">Datenschutz</a></li>
+                <li><a href="imprint.html">Impressum</a></li>
+            </ul>
+        </nav>
+
+    </footer>
 </body>
 
 </html>
